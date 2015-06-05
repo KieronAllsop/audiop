@@ -8,26 +8,12 @@
 // Local Includes
 #include "application/version.hpp"
 
-namespace po = boost::program_options;
 
-void printName()
-{
-    std::string yourname;
-    std::cout << "Enter name: ";
-    std::cin >> yourname;
-    std::cout <<"\n\nHello " << yourname << std::endl;
-}
-
-int getNumber()
-{
-    int num;
-    std::cout << "Enter a number: ";
-    std:: cin >> num;
-    return num;
-}
 
 int main( int argc, char* argv[] )
 {
+    namespace po = boost::program_options;
+
     po::options_description OptionsDescription( "Program Options" );
     OptionsDescription.add_options()
     ( "help", "produce help message" )
@@ -50,33 +36,5 @@ int main( int argc, char* argv[] )
         return 1;
     }
 
-
-    int number;
-    printName();
-    std::cout << "Enter a number: ";
-    number = 0;
-    std::cin >> number;
-    std::cout << "You entered " << number << std::endl;
-
-    for( int loop = 0 ; loop < 10 ; loop++ )
-    {
-        std::cout << loop << std::endl;
-    }
-
-
-
-    int num1 = getNumber();
-    int num2 = getNumber();
-
-    std::cout << num1 << " + " << num2 << " = " << num1 + num2 << std::endl;
-
-    if ( number < 129 )
-    {
-        std::cout << "number is equal to: " << number;
-    }
-    else
-    {
-        std::cout << "invalid";
-    }
     return 0;
 }
