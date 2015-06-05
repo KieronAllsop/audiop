@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="./application/sconscript" />
+		<Option makefile="sconstruct" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="../../audio_processor" />
+		<MakeCommands>
+			<Build command="scons --standard-output --scripts=$SCRIPTS --$VARIANT --toolchains=$TOOLCHAINS $TEST" />
+			<CompileFile command="" />
+			<Clean command="scons --standard-output --scripts=$SCRIPTS --$VARIANT --toolchains=$TOOLCHAINS $TEST -c" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command="" />
+		</MakeCommands>
+		<Build>
+			<Target title="clang36-dbg">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="clang36" />
+					<Variable name="VARIANT" value="dbg" />					<Variable name="TEST" value="" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="clang36-dbg--test">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="clang36" />
+					<Variable name="VARIANT" value="dbg" />					<Variable name="TEST" value="--test" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="clang36-rel">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="clang36" />
+					<Variable name="VARIANT" value="rel" />					<Variable name="TEST" value="" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="clang36-rel--test">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="clang36" />
+					<Variable name="VARIANT" value="rel" />					<Variable name="TEST" value="--test" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="gcc49-dbg">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="gcc49" />
+					<Variable name="VARIANT" value="dbg" />					<Variable name="TEST" value="" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="gcc49-dbg--test">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="gcc49" />
+					<Variable name="VARIANT" value="dbg" />					<Variable name="TEST" value="--test" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="gcc49-rel">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="gcc49" />
+					<Variable name="VARIANT" value="rel" />					<Variable name="TEST" value="" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+			<Target title="gcc49-rel--test">
+				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option type="1" />
+				<Compiler>
+				</Compiler>
+				<Environment>
+					<Variable name="SCRIPTS" value="./application/sconscript" />
+					<Variable name="TOOLCHAINS" value="gcc49" />
+					<Variable name="VARIANT" value="rel" />					<Variable name="TEST" value="--test" />
+				</Environment>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command="" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="../application/main.cpp" />
+		<Unit filename="../application/sconscript" />
+		<Unit filename="../sconstruct" />
+	</Project>
+</CodeBlocks_project_file>

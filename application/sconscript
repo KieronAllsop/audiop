@@ -1,0 +1,31 @@
+Import('env')
+
+Product = "Audiop"
+Major = "00"
+Minor = "01"
+
+Version = "{product_name} {major_ver}.{minor_ver}".format(
+        product_name = Product,
+        major_ver = Major,
+        minor_ver = Minor
+)
+
+Sources = [
+        'main.cpp'
+]
+
+env.AppendUnique( STATICLIBS =
+        env.BoostStaticLibs( [ 'program_options' ] )
+)
+
+objects = env.Compile( Sources )
+
+version_file = env.CreateVersion(
+        'version.cpp',
+        objects,
+        [ 'audiop' ],
+        Version,
+        env['base_path']
+)
+
+env.Build( 'audiop', [ objects, version_file ] )
