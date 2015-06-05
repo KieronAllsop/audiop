@@ -5,7 +5,7 @@
 		<Option title="./application/sconscript" />
 		<Option makefile="sconstruct" />
 		<Option makefile_is_custom="1" />
-		<Option execution_dir="../../audio_processor" />
+		<Option execution_dir="../../audiop" />
 		<MakeCommands>
 			<Build command="scons --standard-output --scripts=$SCRIPTS --$VARIANT --toolchains=$TOOLCHAINS $TEST" />
 			<CompileFile command="" />
@@ -16,8 +16,8 @@
 		</MakeCommands>
 		<Build>
 			<Target title="clang36-dbg">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -36,8 +36,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="clang36-dbg--test">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -56,8 +56,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="clang36-rel">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -76,8 +76,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="clang36-rel--test">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -96,8 +96,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gcc49-dbg">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -116,8 +116,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gcc49-dbg--test">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -136,8 +136,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gcc49-rel">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
@@ -156,8 +156,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="gcc49-rel--test">
-				<Option working_dir="../../audio_processor/.build/application/clang36/dbg/final" />
-				<Option object_output="../../audio_processor/.build/application/clang36/dbg/working" />
+				<Option working_dir="../../audiop/.build/application/clang36/dbg/final" />
+				<Option object_output="../../audiop/.build/application/clang36/dbg/working" />
 				<Option type="1" />
 				<Compiler>
 				</Compiler>
