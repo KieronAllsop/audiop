@@ -3,9 +3,15 @@ import cuppa
 
 cuppa.run(
     default_options = {
-        'boost-version': 'latest'
+        'boost-version'  : 'latest',
+        'spdlog-location': 'git+https://github.com/gabime/spdlog.git',
+        'spdlog-include' : 'include'
+    },
+    dependencies = {
+        'spdlog': cuppa.header_library_dependency( 'spdlog' )
     },
     default_dependencies = [
-        'boost'
+        'boost',
+        'spdlog'
     ]
 )
